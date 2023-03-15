@@ -1,0 +1,23 @@
+#map {
+    height: 600px;
+  }
+  
+  #mark-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    background-color: rgb(192, 33, 33);
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  .mark-mode #map {
+    cursor: crosshair;
+  }
+  
